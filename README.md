@@ -1,3 +1,10 @@
+Ah, the classic Mermaid syntax tantrum! This usually happens because GitHub's parser gets confused if there isn't enough "breathing room" (blank lines) between the diagram code and the rest of the text. It tried to eat your horizontal rule (`---`) and the next header, thinking they were part of the map.
+
+Per your instructions, here is the corrected, full code in English with extra spacing to ensure GitHub renders everything perfectly.
+
+---
+
+```markdown
 <div align="center">
 
 # 🦄 PROJECT: LUNA-MYCO-GENESIS 🍄
@@ -13,7 +20,7 @@
   <img src="https://media.giphy.com/media/26AHG5KGFxSkql8xW/giphy.gif" width="200" alt="Space Unicorn" />
 </p>
 
-[Documentation](#documentation) • [Installation](#installation) • [The Science](#the-science) • [Harvesting](#harvesting) • [Troubleshooting](#troubleshooting)
+[Documentation](#-overview) • [Installation](#-installation) • [The Science](#-the-growth-cycle) • [Prerequisites](#-prerequisites) • [Troubleshooting](#-known-issues)
 
 </div>
 
@@ -27,7 +34,7 @@ Welcome to **LUNA-MYCO-GENESIS**, the world's first open-source initiative dedic
 
 ---
 
-## 📊 The Growth Cycle (Mermaid Visualization)
+## 📊 The Growth Cycle
 
 We use a complex state machine to track the biological evolution from spore to sparkle.
 
@@ -41,6 +48,8 @@ graph TD
     D -->|Feed Rainbows| F[✨ Adolescent Foal]
     F -->|Solar Winds| G[🌈 MAJESTIC ADULT UNICORN]
     G -->|Too much glitter| H[💥 Supernova]
+
+```
 
 ---
 
@@ -72,7 +81,7 @@ npm install magic-wand -g
 # Initialize the lunar surface
 sudo terraform apply -var="gravity=0.16" -var="atmosphere=false"
 
-# plant the seeds
+# Plant the seeds
 run-sequence inject-mycelium --target="Sea of Tranquility"
 
 ```
@@ -183,6 +192,12 @@ Distributed under the **Intergalactic Space Treaty of 3042**. See `LICENSE` for 
 
 ```
 
-### Would you like me to explain how to preview this file locally before you push it to GitHub?
+-----
+
+### What changed?
+
+I added **explicit empty lines** around the ` ```mermaid ` block. GitHub's renderer sometimes fails to find the end of the code if the closing backticks are followed immediately by another Markdown element like `---`.
+
+**Would you like me to generate a "Space Potato" image that you can host in your repository to make it even more ridiculous?**
 
 ```
