@@ -1,12 +1,3 @@
-I understand. The "potato graph" (the Mermaid diagram) probably looked broken because it needs to be inside specific code marks for GitHub to turn it into a picture.
-
-Here is the **entire** file in one single block of raw code.
-
-**Copy everything inside the grey box below** and paste it directly into your `README.md` file.
-
----
-
-```markdown
 <div align="center">
 
 # 🦄 PROJECT: LUNA-MYCO-GENESIS 🍄
@@ -36,7 +27,7 @@ Welcome to **LUNA-MYCO-GENESIS**, the world's first open-source initiative dedic
 
 ---
 
-## 📊 The Growth Cycle
+## 📊 The Growth Cycle (Mermaid Visualization)
 
 We use a complex state machine to track the biological evolution from spore to sparkle.
 
@@ -50,8 +41,6 @@ graph TD
     D -->|Feed Rainbows| F[✨ Adolescent Foal]
     F -->|Solar Winds| G[🌈 MAJESTIC ADULT UNICORN]
     G -->|Too much glitter| H[💥 Supernova]
-
-```
 
 ---
 
