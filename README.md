@@ -43,3 +43,6 @@ graph TD
     G -->|Too much glitter| H[💥 Supernova]
 
 
+🛠️ Prerequisites
+Before you launch your shuttle, ensure you have the following dependencies installed in your reality matrix:
+
