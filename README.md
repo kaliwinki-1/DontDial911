@@ -1,4 +1,4 @@
-<div align="center">
+Markdown<div align="center">
 
 # 🦄 PROJECT: LUNA-MYCO-GENESIS 🍄
 ### *The Definitive Framework for Cultivating Sentient Equines on Selenium-Based Fungal Substrates in Low-Gravity Environments*
@@ -13,7 +13,7 @@
   <img src="https://media.giphy.com/media/26AHG5KGFxSkql8xW/giphy.gif" width="200" alt="Space Unicorn" />
 </p>
 
-[Documentation](#documentation) • [Installation](#installation) • [The Science](#the-science) • [Harvesting](#harvesting) • [Troubleshooting](#troubleshooting)
+[Documentation](#-overview) • [Installation](#-installation) • [The Science](#-the-growth-cycle) • [Prerequisites](#-prerequisites) • [Troubleshooting](#-known-issues)
 
 </div>
 
@@ -27,7 +27,7 @@ Welcome to **LUNA-MYCO-GENESIS**, the world's first open-source initiative dedic
 
 ---
 
-## 📊 The Growth Cycle (Mermaid Visualization)
+## 📊 The Growth Cycle
 
 We use a complex state machine to track the biological evolution from spore to sparkle.
 
@@ -41,3 +41,13 @@ graph TD
     D -->|Feed Rainbows| F[✨ Adolescent Foal]
     F -->|Solar Winds| G[🌈 MAJESTIC ADULT UNICORN]
     G -->|Too much glitter| H[💥 Supernova]
+🛠️ PrerequisitesBefore you launch your shuttle, ensure you have the following dependencies installed in your reality matrix:DependencyVersionRequired AmountNotesStardustv4.2.0500kgMust be gathered from the trailing edge of a comet.Hopelatest∞Do not use the deprecated 'Despair' library.CheeseGouda1 WheelThe moon is made of it; bring extra for patching holes.Flux Capacitor1.21GW1For time-traveling back to fix your mistakes.💾 InstallationTo deploy the fungal colony, copy the following incantation into your terminal.Bash# Clone the repository
+git clone [https://github.com/nasa/top-secret/unicorn-farm.git](https://github.com/nasa/top-secret/unicorn-farm.git)
+
+# Install magic
+npm install magic-wand -g
+
+# plant the seeds
+run-sequence inject-mycelium --target="Sea of Tranquility"
+📉 Known IssuesBug #102: Sometimes the unicorns grow two heads. This is a feature, not a bug.Bug #345: Gravity failure causes unicorns to float away. Workaround: Tie them down.<div align="center">Made with 💜 and 🍄 by the Lunar Mycology Team</div>
+Souhaitez-vous que j'ajoute une section "FAQ" (Foire Aux Questions) complètement absurde pour rendre le fichier encore plus long ?
